@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+}
+
+
+
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.txt{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.btn{
+   padding: 20px;
+   margin:20px ;
+   border: none;
+   outline: none;
+   font-weight: bold;
+   font-size: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+#Start{
+    color: white;
+    background-color: green;
+    box-shadow: 3px 0px 3px lightgreen;
+}
+
+#Stop{
+    color: white;
+    background-color: red;
+    box-shadow: 3px 0px 3px lightcoral;
+
+
+}
+
+#Reset{
+    color: white;
+    background-color:rgb(202, 202, 3);
+    box-shadow: 3px 0px 3px lightyellow;
+}
